@@ -1,0 +1,23 @@
+# Środowisko wirtualne
+venv/
+*.pyc
+__pycache__/
+
+# Logi i wyniki
+results/
+*.log
+*.txt
+
+# Pliki konfiguracyjne systemowe
+.DS_Store
+Thumbs.db
+
+# Klucze i dane wrażliwe
+*.pem
+*.key
+*.env
+
+# IDE i edytory
+.vscode/
+.idea/
+*.swp
