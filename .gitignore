@@ -1,23 +1,26 @@
-# Środowisko wirtualne
+# Virtual environment
 venv/
-*.pyc
+.env
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Logi i wyniki
-results/
-*.log
-*.txt
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# Pliki konfiguracyjne systemowe
+# macOS system files
 .DS_Store
-Thumbs.db
 
-# Klucze i dane wrażliwe
-*.pem
-*.key
-*.env
+# Logs and temp files
+*.log
+*.tmp
 
-# IDE i edytory
-.vscode/
-.idea/
-*.swp
+# AWS credentials (bezpieczne)
+credentials
+config
+
+# Terraform leftovers (opcjonalnie)
+*.tfstate
+*.tfstate.*
+.terraform/
